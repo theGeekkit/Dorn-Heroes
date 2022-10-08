@@ -1,0 +1,5 @@
+<mat-grid-list cols="4"  >
+  <mat-grid-tile *ngFor="let hero of hero" style="width: 150%;">
+    <app-hero [hero]="hero"></app-hero>
+  </mat-grid-tile>
+</mat-grid-list>
