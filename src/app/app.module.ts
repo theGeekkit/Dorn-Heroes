@@ -7,6 +7,7 @@ import { HeroComponent } from './hero/hero.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatCardModule} from '@angular/material/card';
+import { BigPictureComponent } from './big-picture/big-picture.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import {MatCardModule} from '@angular/material/card';
     HeaderComponent,
     HeroesListComponent,
     HeroComponent,
+    BigPictureComponent,
 
   ],
   imports: [
