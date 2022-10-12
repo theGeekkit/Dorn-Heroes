@@ -1,5 +1,4 @@
 mat-card img{
-  border-color: crimson;
 
   height: 200px;
   width: 200px;
@@ -16,4 +15,5 @@ mat-card {
 mat-card-title{
   font-size: 25px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgb(221, 162, 14);
 }
