@@ -3,15 +3,16 @@ import { CommonModule } from '@angular/common';
 import {Routes, RouterModule} from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { HeroComponent } from './hero/hero.component';
+import { HeroesListComponent } from './heroes-list/heroes-list.component';
 import { }
 
 const routes: Routes = [
-  {path: 'Alexis Polux', component: },
-  {path: 'Fafnir Rann', component: },
-  {path: 'Sigismund', component: },
-  {path: 'Tor Garadon', component: },
-  {path: 'Dorn', component: },
-  {path: '', redirectTo:}
+  {path: 'Alexis Polux', component:HeroesListComponent },
+  {path: 'Fafnir Rann', component:HeroesListComponent },
+  {path: 'Sigismund', component:HeroesListComponent },
+  {path: 'Tor Garadon', component:HeroesListComponent },
+  {path: 'Dorn', component: HeroesListComponent },
+  {path: '', redirectTo:},
 ];
 
 @NgModule({
@@ -20,6 +21,7 @@ const routes: Routes = [
     CommonModule,
     RouterModule,
 
-  ]
+  ],
+  exports: [RouterModule]
 })
 export class AppRoutingModule { }
