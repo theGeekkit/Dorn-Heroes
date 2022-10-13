@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Hero } from '../Model/hero';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-heroes-list',
@@ -27,9 +28,13 @@ export class HeroesListComponent implements OnInit {
     },
   ]
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
+
+gotoList() {
+  this.router.navigate(['/src/app/app.component.html'])
+}
 
 }

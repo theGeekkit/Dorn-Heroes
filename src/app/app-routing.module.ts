@@ -12,7 +12,7 @@ const routes: Routes = [
   {path: 'Sigismund', component:HeroesListComponent },
   {path: 'Tor Garadon', component:HeroesListComponent },
   {path: 'Dorn', component: HeroesListComponent },
-  {path: '', redirectTo:},
+  {path: '', redirectTo:'app-component', pathMatch: 'full'},
 ];
 
 @NgModule({
