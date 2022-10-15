@@ -16,9 +16,7 @@ export class HeroesListComponent implements OnInit {
   constructor(public heroService: HeroService) { }
 
   ngOnInit(): void {
-    this.heroService.heroes$(heroes => {
-      this.heroes = heroes
-    })
+
   }
 
 

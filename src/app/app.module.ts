@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { BigPictureComponent } from './big-picture/big-picture.component';
+import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
@@ -24,6 +25,7 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserAnimationsModule,
     MatGridListModule,
     MatCardModule,
+    RouterModule.forRoot([{}]),
     AppRoutingModule
 
 
