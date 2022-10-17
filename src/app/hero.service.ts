@@ -1,4 +1,5 @@
 import {Injectable} from '@angular/core';
+import { HeroesListComponent } from './heroes-list/heroes-list.component';
 import { Hero } from './Model/hero';
 
 
@@ -8,6 +9,12 @@ import { Hero } from './Model/hero';
 })
 
 export class HeroService {
+
+  heroes: heroes;
+
+  // this.heroService.heroes$(heroes => {
+  //   this.heroes = heroes
+  // })
 
   loadHeroes() {
     this.heroes.next([
@@ -48,7 +55,4 @@ export class HeroService {
       },
     ])
   }
-    // this.heroService.heroes$(heroes => {
-    //   this.heroes = heroes
-    // })
 }
