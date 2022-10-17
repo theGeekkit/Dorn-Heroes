@@ -14,3 +14,4 @@ export class Hero {
     this.description = description
   }
 }
+

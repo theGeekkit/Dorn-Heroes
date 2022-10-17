@@ -6,8 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  bigPicture() {
+  loadedFeature = 'heroes-list';
 
-  }
   title = 'Dorn-Heroes';
+
+  onNavigate(feature: string) {
+    this.loadedFeature = feature;
+  }
 }

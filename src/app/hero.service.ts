@@ -2,13 +2,15 @@ import {Injectable} from '@angular/core';
 import { Hero } from './Model/hero';
 
 
+
 @Injectable({
   providedIn: 'root'
 })
+
 export class HeroService {
 
   loadHeroes() {
-    this.heroes$.next([
+    this.heroes.next([
       {
         id: 1,
         name:"Alexis Polux",

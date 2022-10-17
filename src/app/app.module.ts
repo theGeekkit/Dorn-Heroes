@@ -5,10 +5,11 @@ import { HeaderComponent } from './header/header.component';
 import { HeroesListComponent } from './heroes-list/heroes-list.component';
 import { HeroComponent } from './hero/hero.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatGridListModule} from '@angular/material/grid-list';
-import {MatCardModule} from '@angular/material/card';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatCardModule } from '@angular/material/card';
 import { BigPictureComponent } from './big-picture/big-picture.component';
 import { RouterModule } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,8 @@ import { RouterModule } from '@angular/router';
     BrowserAnimationsModule,
     MatGridListModule,
     MatCardModule,
+    RouterModule.forRoot([{}]),
+    AppRoutingModule
 
 
   ],

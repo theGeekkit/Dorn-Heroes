@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Hero } from '../Model/hero';
-import { BigPictureComponent } from '../big-picture/big-picture.component';
+
 
 @Component({
   selector: 'app-hero',
