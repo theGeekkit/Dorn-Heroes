@@ -1,16 +1,7 @@
-import {Injectable} from '@angular/core';
-import { HeroesListComponent } from './heroes-list/heroes-list.component';
-import { Hero } from './Model/hero';
+import { HeroesListComponent } from "./heroes-list/heroes-list.component";
+import { Hero } from "./Model/hero";
 
 
-
-@Injectable({
-  providedIn: 'root'
-})
-
-export class HeroService {
-
-  heroes: heroes;
 
   // this.heroService.heroes$(heroes => {
   //   this.heroes = heroes
@@ -55,4 +46,4 @@ export class HeroService {
       },
     ])
   }
-}
+
