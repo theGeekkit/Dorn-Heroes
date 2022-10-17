@@ -46,5 +46,7 @@ export class HeroService {
       },
     ])
   }
-
+    // this.heroService.heroes$(heroes => {
+    //   this.heroes = heroes
+    // })
 }

@@ -11,8 +11,11 @@ export class HeroComponent implements OnInit {
 
   @Input() hero: Hero = {
     name: "",
-    imageUrl: ""
-}
+    imageUrl: "",
+    id: 0,
+    bigImageUrl: '',
+    description: ''
+  }
 
   constructor() { }
 

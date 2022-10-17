@@ -4,7 +4,8 @@ import {Routes, RouterModule} from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { HeroComponent } from './hero/hero.component';
 import { HeroesListComponent } from './heroes-list/heroes-list.component';
-import { }
+
+import { AppComponent } from './app.component';
 
 const routes: Routes = [
   {path: 'Alexis Polux', component:HeroesListComponent },
@@ -12,7 +13,7 @@ const routes: Routes = [
   {path: 'Sigismund', component:HeroesListComponent },
   {path: 'Tor Garadon', component:HeroesListComponent },
   {path: 'Dorn', component: HeroesListComponent },
-  {path: '', redirectTo:'app-component', pathMatch: 'full'},
+  {path: '', component: AppComponent},
 ];
 
 @NgModule({
