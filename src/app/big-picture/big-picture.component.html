@@ -1,1 +1,11 @@
-<p>big-picture works!</p>
+<mat-card class="Hero">
+  <mat-card-header>
+    <mat-card-title>{{hero.name}}</mat-card-title>
+  </mat-card-header>
+  <img mat-card-image src={{hero.bigImageUrl}} alt="Picture">
+<mat-card-content>
+  <p>
+    {{hero.description}}
+  </p>
+</mat-card-content>
+</mat-card>
