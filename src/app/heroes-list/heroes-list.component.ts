@@ -13,11 +13,13 @@ export class HeroesListComponent implements OnInit {
   hero: Hero[] = [];
 
 
+
   constructor(public heroService: HeroService) { }
 
   ngOnInit(): void {
 
   }
+
 
 
 }

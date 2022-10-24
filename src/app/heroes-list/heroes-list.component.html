@@ -2,8 +2,8 @@
   <mat-card cols="6" *ngFor="let hero of heroService.heroes">
   <mat-card-title  style="width: 100%;">
     <!-- <app-hero></app-hero> -->
-    {{hero.name}} <button   style="cursor: pointer">
-    <img src={{hero.imageUrl}}></button></mat-card-title>
+    {{hero.name}} <button style="cursor: pointer" >
+    <img src={{hero.imageUrl}} (click)="heroService.onChosen(hero.id)" routerLink='/BigPicture'></button></mat-card-title>
     <mat-card-content></mat-card-content>
 </mat-card>
 </div>

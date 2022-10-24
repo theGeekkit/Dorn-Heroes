@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Hero } from '../Model/hero';
 import { Input } from '@angular/core';
+import { HeroService } from '../hero.service';
+
 
 @Component({
   selector: 'bigPicture',
@@ -17,7 +19,7 @@ export class BigPictureComponent implements OnInit {
     description: ''
   }
 
-  constructor() { }
+  constructor(public heroService: HeroService) { }
 
   ngOnInit(): void {
   }
