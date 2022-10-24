@@ -1,1 +1,26 @@
+mat-card img{
+  background-color: transparent;
+  height: 200px;
+  width: 200px;
+}
 
+mat-card {
+    height:fit-content;
+    width:201px;
+    padding: 0;
+    margin-bottom: 0%;
+    background-color: transparent;
+
+}
+
+mat-card-title{
+  text-align: center;
+  font-size: 25px;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+
+}
+.container{
+  display: flex;
+  align-items: flex-start;
+  background-color: transparent;
+}

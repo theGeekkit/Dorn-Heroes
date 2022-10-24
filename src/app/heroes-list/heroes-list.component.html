@@ -1,5 +1,9 @@
-<mat-grid-list cols="6"  >
-  <mat-grid-tile *ngFor="let hero of hero" style="width: 100%;">
-    <app-hero [hero]="hero"></app-hero>
-  </mat-grid-tile>
-</mat-grid-list>
+<div class="container">
+  <mat-card cols="6" *ngFor="let hero of heroService.heroes">
+  <mat-card-title  style="width: 100%;">
+    <!-- <app-hero></app-hero> -->
+    {{hero.name}} <button   style="cursor: pointer">
+    <img src={{hero.imageUrl}}></button></mat-card-title>
+    <mat-card-content></mat-card-content>
+</mat-card>
+</div>

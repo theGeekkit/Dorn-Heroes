@@ -1,19 +1,1 @@
-mat-card img{
 
-  height: 200px;
-  width: 200px;
-}
-
-mat-card {
-    height:fit-content;
-    width:auto;
-    padding: 0;
-    margin-bottom: 0%;
-
-}
-
-mat-card-title{
-  font-size: 25px;
-  font-family: Impact, 'Arial Narrow Bold', sans-serif;
-  background-color: rgb(221, 162, 14);
-}
