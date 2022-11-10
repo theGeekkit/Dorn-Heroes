@@ -7,12 +7,13 @@ import { BigPictureComponent } from './big-picture/big-picture.component';
 
 
 const appRoutes: Routes = [
-  {path: 'Alexis Polux', component: BigPictureComponent },
-  {path: 'Fafnir Rann', component: BigPictureComponent },
-  {path: 'Sigismund', component: BigPictureComponent },
-  {path: 'Tor Garadon', component: BigPictureComponent },
-  {path: 'Dorn', component: BigPictureComponent },
-  {path: '', component: AppComponent},
+  // {path: 'Alexis Polux', component: BigPictureComponent },
+  // {path: 'Fafnir Rann', component: BigPictureComponent },
+  // {path: 'Sigismund', component: BigPictureComponent },
+  // {path: 'Tor Garadon', component: BigPictureComponent },
+  // {path: 'Dorn', component: BigPictureComponent },
+  {path:"appComponent", component:AppComponent}
+  // {path: '', component: AppComponent}
 ];
 
 @NgModule({

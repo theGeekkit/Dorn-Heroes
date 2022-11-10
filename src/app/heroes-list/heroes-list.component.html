@@ -4,6 +4,7 @@
     <!-- <app-hero></app-hero> -->
     {{hero.name}} <button style="cursor: pointer" >
     <img src={{hero.imageUrl}} (click)="heroService.onChosen(hero.id)" routerLink='/BigPicture'></button></mat-card-title>
+    conaole.log(hero.id)
     <mat-card-content></mat-card-content>
 </mat-card>
 </div>
