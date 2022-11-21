@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import {Routes, RouterModule} from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { BigPictureComponent } from './big-picture/big-picture.component';
 import { HeroesListComponent } from './heroes-list/heroes-list.component';
 import { AlexisPoluxComponent } from './alexis-polux/alexis-polux.component';
 import { FafnirRannComponent } from './fafnir-rann/fafnir-rann.component';
