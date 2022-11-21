@@ -40,7 +40,8 @@ const appRoutes: Routes = [
   {
     path: 'home',
     component: HeroesListComponent
-  }
+  },
+
   // {path: '', component: AppComponent}
 ];
 
