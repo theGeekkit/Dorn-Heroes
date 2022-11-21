@@ -36,6 +36,10 @@ const appRoutes: Routes = [
   {
     path: '',
     component: AppComponent
+  },
+  {
+    path: 'home',
+    component: HeroesListComponent
   }
   // {path: '', component: AppComponent}
 ];
