@@ -12,8 +12,8 @@ export class HeroComponent implements OnInit {
   @Input() hero: Hero = {
     name: "",
     imageUrl: "",
+    route: "",
     id: 0,
-    bigImageUrl: '',
     description: ''
   }
 

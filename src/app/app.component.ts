@@ -17,8 +17,8 @@ export class AppComponent {
     .pipe(filter(event => event instanceof NavigationStart), map(e => e as NavigationStart))
     .subscribe((event: NavigationStart) => {
       console.log(event)
-      if(event.url === '/heroeslist') {
-        this.imageUrl = 'url()'
+      if(event.url === '/home') {
+        this.imageUrl = 'url(https://i.postimg.cc/9QrPCsyD/d8foswh-1d3d414c-be37-420d-bfcc-4f7e4554f3ab.png)'
       } else if(event.url === '/alexis-polux') {
         this.imageUrl = 'url()'
       } else if(event.url === '/fafnir-rann') {
@@ -35,7 +35,5 @@ export class AppComponent {
 
     )};
 
-  onNavigate(feature: string) {
-    this.loadedFeature = feature;
-  }
+
 }

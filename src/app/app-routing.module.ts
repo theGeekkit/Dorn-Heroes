@@ -34,14 +34,15 @@ const appRoutes: Routes = [
   },
   {
     path: '',
-    component: AppComponent
+    component: AppComponent,
+    pathMatch: 'full',
+    children: []
   },
   {
     path: 'home',
     component: HeroesListComponent
   },
 
-  // {path: '', component: AppComponent}
 ];
 
 @NgModule({

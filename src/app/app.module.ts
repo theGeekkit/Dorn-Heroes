@@ -7,7 +7,7 @@ import { HeroComponent } from './hero/hero.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
-import { BigPictureComponent } from './big-picture/big-picture.component';
+
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AlexisPoluxComponent } from './alexis-polux/alexis-polux.component';
@@ -15,6 +15,9 @@ import { FafnirRannComponent } from './fafnir-rann/fafnir-rann.component';
 import { SigismundComponent } from './sigismund/sigismund.component';
 import { TorGaradonComponent } from './tor-garadon/tor-garadon.component';
 import { DornComponent } from './dorn/dorn.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+
 
 @NgModule({
   declarations: [
@@ -22,7 +25,6 @@ import { DornComponent } from './dorn/dorn.component';
     HeaderComponent,
     HeroesListComponent,
     HeroComponent,
-    BigPictureComponent,
     AlexisPoluxComponent,
     FafnirRannComponent,
     SigismundComponent,
@@ -36,7 +38,10 @@ import { DornComponent } from './dorn/dorn.component';
     MatGridListModule,
     MatCardModule,
     RouterModule.forRoot([{}]),
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+
 
 
   ],

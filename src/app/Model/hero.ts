@@ -1,16 +1,18 @@
+
+
 export class Hero {
   id: number;
   name: string;
   imageUrl: string;
-  bigImageUrl: string;
+  route: string;
   description: string;
 
 
-  constructor(id: number, name: string, imageUrl: string, bigImageUrl: string, description: string) {
+  constructor(id: number, name: string, imageUrl: string, route: string, description: string) {
     this.id = id
     this.name = name
     this.imageUrl = imageUrl
-    this.bigImageUrl = bigImageUrl
+    this.route = route
     this.description = description
   }
 }
