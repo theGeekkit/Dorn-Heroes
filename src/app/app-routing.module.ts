@@ -13,35 +13,30 @@ import { DornComponent } from './dorn/dorn.component';
 
 const appRoutes: Routes = [
   {
-    path: 'Alexis Polux',
+    path: 'alexis-polux',
     component: AlexisPoluxComponent
   },
   {
-    path: 'Fafnir Rann',
+    path: 'fafnir-rann',
     component: FafnirRannComponent
   },
   {
-    path: 'Sigismund',
+    path: 'sigismund',
     component: SigismundComponent
   },
   {
-    path: 'Tor Garadon',
+    path: 'tor-garadon',
     component: TorGaradonComponent
   },
   {
-    path: 'Dorn',
+    path: 'dorn',
     component: DornComponent
-  },
-  {
-    path: '',
-    component: AppComponent,
-    pathMatch: 'full',
-    children: []
   },
   {
     path: 'home',
     component: HeroesListComponent
   },
+
 
 ];
 

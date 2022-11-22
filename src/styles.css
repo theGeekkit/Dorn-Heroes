@@ -1,8 +1,8 @@
 body {
   background-position:justify;
-  background-size: cover;
+  background-size: contain;
   margin: 0px;
-
+  background-color: rgb(255, 191, 14);
 }
 
 html, body { height: 100%; }

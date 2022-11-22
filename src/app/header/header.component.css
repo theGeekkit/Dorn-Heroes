@@ -3,3 +3,6 @@ p {
   font-weight: bold;
   font-family: Verdana, Tahoma, sans-serif;
 }
+div {
+  background-color: transparent;
+}

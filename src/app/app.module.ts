@@ -37,7 +37,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     BrowserAnimationsModule,
     MatGridListModule,
     MatCardModule,
-    RouterModule.forRoot([{}]),
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
