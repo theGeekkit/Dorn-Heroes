@@ -3,7 +3,7 @@ body {
   background-size: contain;
   margin: 0px;
   background-color: rgb(255, 191, 14);
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-image:;
 }
-
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
